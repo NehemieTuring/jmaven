@@ -7,10 +7,11 @@ pipeline{
       }
     }
     stage('Test'){
-    steps{
-      sh '/usr/share/maven/bin/mvn test'
+      steps{
+        sh '/usr/share/maven/bin/mvn test'
+      }
     }
   }
 }
-  }
+  
   
